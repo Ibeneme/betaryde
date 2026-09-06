@@ -289,7 +289,7 @@ const HeroSection: React.FC = () => {
     <section
       id="top"
       ref={containerRef}
-      className="relative overflow-hidden pt-16 pb-32 md:pt-32 md:pb-28 bg-white dark:bg-[#0B0511] transition-colors duration-500 font-['Parkinsans',sans-serif]"
+      className="relative overflow-hidden pt-32 pb-16 md:pt-32 md:pb-28 bg-white dark:bg-[#0B0511] transition-colors duration-500 font-['Parkinsans',sans-serif]"
     >
       {/* Ambient background */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
